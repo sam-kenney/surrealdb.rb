@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    surrealdb (0.1.0)
+    surrealdb (0.4.0)
+      httpx (>= 0.18.0)
 
 GEM
   remote: https://rubygems.org/
@@ -33,7 +34,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  httpx
+  httpx (>= 0.18.0)
   rake (~> 12.0)
   rspec (~> 3.0)
   rufo
