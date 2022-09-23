@@ -1,0 +1,44 @@
+PATH
+  remote: .
+  specs:
+    surrealdb (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.5.0)
+    http-2-next (0.5.0)
+    httpx (0.21.0)
+      http-2-next (>= 0.4.1)
+    rake (12.3.3)
+    rspec (3.11.0)
+      rspec-core (~> 3.11.0)
+      rspec-expectations (~> 3.11.0)
+      rspec-mocks (~> 3.11.0)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-support (3.11.1)
+    rufo (0.13.0)
+    webrick (1.7.0)
+    yard (0.9.28)
+      webrick (~> 1.7.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httpx
+  rake (~> 12.0)
+  rspec (~> 3.0)
+  rufo
+  surrealdb!
+  yard
+
+BUNDLED WITH
+   2.1.4
