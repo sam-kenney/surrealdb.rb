@@ -7,7 +7,9 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Ruby driver for SurrealDB"
   spec.homepage      = "https://surrealdb.com/docs/integration/libraries/ruby"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.6.4")
+
+  spec.licenses = ["MIT"]
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/sam-kenney/surrealdb.rb/"
